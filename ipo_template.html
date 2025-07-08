@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPO Listing Template</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: rgba(225, 215, 188, 0.847);
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .heading {
+      font-size: 2rem;
+      color: #1a1a1a;
+    }
+
+    .company-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      background: rgb(224, 190, 190);
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin: 20px auto;
+      width:fit-content;
+      max-width:90%;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    .company-box img#logo1 {
+      width: 100px;
+      height: 100px;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .card {
+      width: 150px;
+      height: 160px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-top {
+      background-color: #dd5e5e;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-bottom {
+      background-color: rgb(133, 167, 147);
+      height: 50%;
+      color: #000;
+      padding: 10px;
+    }
+
+    .card-bottom p {
+      font-size: 0.85rem;
+      margin: 0;
+    }
+
+    .card-bottom h3 {
+      margin: 5px 0 0;
+    }
+
+    .card img.icon {
+      width: 80px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-weight: bold;
+      background: #1a1a1a;
+      color: white;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    /* ✅ Responsive Styling */
+    @media (max-width: 600px) {
+      .heading {
+        font-size: 1.5rem;
+      }
+
+      .company-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .company-box img#logo1 {
+        width: 80px;
+        height: 80px;
+      }
+
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        width: 90%;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .card-top {
+        width: 40%;
+        height: 100%;
+      }
+
+      .card-top img.icon {
+        width: 60px;
+      }
+
+      .card-bottom {
+        width: 60%;
+        text-align: left;
+        padding: 10px;
+        height: 100%;
+      }
+
+      .card-bottom p {
+        font-size: 0.8rem;
+      }
+
+      .card-bottom h3 {
+        font-size: 1rem;
+      }
+
+      .footer {
+        font-size: 0.85rem;
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1 class="heading">MAINBOARD IPO LISTING</h1>
+
+    <div class="company-box">
+      <img src="C:\Users\thana\webdevelopment\practise\logo.jpg" alt="HDB Logo" class="logo" id="logo1">
+      <div class="company-info">
+        <h2>HDB FINANCIAL SERVICES LTD.</h2>
+        <!-- <p>10 JULY 2025</p> -->
+      </div>
+    </div>
+
+    <div class="card-container">
+
+      <div class="card">
+        <div class="card-top">
+          <img src="C:\Users\thana\webdevelopment\practise\offer_price.jpg" class="icon" alt="Offer Price Icon" id="offer">
+        </div>
+        <div class="card-bottom">
+          <p>OFFER PRICE</p>
+          <h3>₹ 480</h3>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <img src="C:\Users\thana\webdevelopment\practise\listing_price.jpg" class="icon" alt="Listing Price Icon" id="listing">
+        </div>
+        <div class="card-bottom">
+          <p>LISTING PRICE (NSE)</p>
+          <h3>₹ 599</h3>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <img src="C:\Users\thana\webdevelopment\practise\investment.jpg" class="icon" alt="Investment Icon" id="investment">
+        </div>
+        <div class="card-bottom">
+          <p>INVESTMENT PER LOT</p>
+          <h3>₹ 14,400</h3>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <img src="C:\Users\thana\webdevelopment\practise\profit.jpg" class="icon" alt="Profit Icon" id="profit">
+        </div>
+        <div class="card-bottom">
+          <p>PROFIT PER LOT</p>
+          <h3>₹ 3,570</h3>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <p>📺 Subscribe for More Updates &nbsp; | &nbsp; IPOInvestor ಕನ್ನಡಿಗ</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
